@@ -17,7 +17,7 @@ export default {
     }
   },
   metaInfo: {
-    title: 'Github | Clones'
+    title: 'GitHub | Clones'
   },
   async created () {
     const { data } = await githubAPI.get('/repos/vuejs/vue')
