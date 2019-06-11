@@ -4,4 +4,8 @@ const hackernewsAPI = axios.create({
   baseURL: 'https://hacker-news.firebaseio.com/v0/'
 })
 
-export { hackernewsAPI }
+const githubAPI = axios.create({
+  baseURL: 'https://api.github.com'
+})
+
+export { hackernewsAPI, githubAPI }

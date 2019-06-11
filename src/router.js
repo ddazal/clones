@@ -17,6 +17,11 @@ export default new Router({
       path: '/hackernews',
       name: 'hackernews',
       component: () => import('./views/HackerNews.vue')
+    },
+    {
+      path: '/github',
+      name: 'github',
+      component: () => import('./views/GitHub.vue')
     }
   ]
 })
